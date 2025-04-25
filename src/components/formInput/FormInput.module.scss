@@ -1,0 +1,21 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.label_text {
+  font-size: $text-preset-5;
+  line-height: $line-height-150;
+  font-weight: 700;
+  color: $grey-500;
+}
+
+.input {
+  border: 1px solid $grey-500;
+  border-radius: 8px;
+  padding: 1.2rem 2rem;
+  font-family: inherit;
+  font-size: $text-preset-4;
+}

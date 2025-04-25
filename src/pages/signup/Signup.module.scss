@@ -1,0 +1,48 @@
+.register-section {
+  display: grid;
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  grid-template-columns: 1fr 1.5fr;
+  height: 100%;
+  max-height: 960px;
+}
+
+.regestration-illustration {
+  background-image: url("../images/illustration-authentication.svg");
+  background-size: cover;
+  border-radius: 1.2rem;
+}
+
+.regestration-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  background-color: $white;
+  padding: 3.2rem;
+  border-radius: 1.2rem;
+  width: 100%;
+  max-width: 560px;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
+
+.title {
+  font-size: $text-preset-1;
+}
+
+.register_btn {
+  background-color: $grey-900;
+  color: $white;
+}

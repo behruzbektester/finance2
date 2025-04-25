@@ -1,0 +1,13 @@
+@import "./scss/vendors/normalize";
+@import "./scss/utils/variables";
+@import "./scss/base/resets";
+@import "./scss/base/typography";
+@import "./scss/components/buttons";
+.title {
+    font-size: $text-preset-1;
+}
+
+.register_btn {
+    background-color: $grey-900;
+    color: $white;
+}

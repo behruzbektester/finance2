@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+body {
+    font-size: $text-preset-4;
+    font-family: $global-font-family;
+    background-color: $beige-100;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 0.8rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    font-size: 700;
+    font-size: $text-preset-4;
+}
+
+.loading {
+    opacity: 0.6;
+    cursor: auto;
+}
